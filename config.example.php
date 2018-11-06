@@ -5,10 +5,10 @@
  */
 $config = array(
     /* Incoming webhook url */
-	'posturl' => '',
+	'posturl' => 'https://hooks.slack.com/services/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',
     
     /* Name the bot should post as */
-    'username' => 'scoreBot',
+    'username' => 'chip',
     
     /* Channel the bot should post in */
     'channel' => '#general',
@@ -17,7 +17,7 @@ $config = array(
     'token' => '',
     
     /* Bot token, if you leave this empty, user names won't be checked with slack */
-    'botToken' => '',
+    'botToken' => 'xoxb-474059777031-474096592487-ND2444mhhlpnVNezcoLfoGgX',
     
     /* Where the JSON file with the user data is stored */
     'users' => realpath(dirname(__FILE__)) . '/data/users.json',
